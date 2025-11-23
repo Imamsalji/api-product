@@ -16,7 +16,6 @@ class AuthController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
-            'role' => $request->role ?? 'user',
         ]);
 
         return response()->json(['message' => 'User registered']);
@@ -36,7 +35,8 @@ class AuthController extends Controller
         return response()->json([
             'access_token' => $token,
             'token_type'   => 'Bearer',
-            'user'         => $user
+            'user'         => $user,
+            'message'      => 'Selamat Anda berhasil Login!'
         ]);
     }
 
