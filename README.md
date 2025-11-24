@@ -28,7 +28,7 @@ cd api-product
 3. Menginstal dependensi menggunakan cmd/terminal 
 
 ```
-npm install
+composer install
 ```
 
 4. Konfigurasi file
