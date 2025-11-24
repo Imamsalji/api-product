@@ -7,13 +7,13 @@ Panduan ini akan membantu Anda untuk meng-clone proyek Laravel dari GitHub dan m
 Sebelum memulai, pastikan Anda memiliki beberapa alat berikut yang terpasang di sistem Anda:
 
 - **PHP**: Laravel membutuhkan PHP versi 7.3 atau lebih tinggi.
-- **Composer**: Composer digunakan untuk mengelola dependensi PHP.
+- **Composer**: Composer digunakan untuk mengelola dependensi PHP https://getcomposer.org/download/.
 - **Git**: Digunakan untuk meng-clone repositori dari GitHub.
 - **Database**: MySQL atau database lain yang didukung Laravel.
 
-## How to Use
+## Cara instalasi dan menjalankan Projek
 
-1. Clone repository menggunakan Composer
+1. Clone repository menggunakan cmd/terminal
 
 ```
 git clone https://github.com/Imamsalji/api-product.git
@@ -25,7 +25,7 @@ git clone https://github.com/Imamsalji/api-product.git
 cd api-product
 ```
 
-3. Menginstal dependensi menggunakan Composer 
+3. Menginstal dependensi menggunakan cmd/terminal 
 
 ```
 npm install
@@ -49,13 +49,10 @@ php artisan key:generate
 php artisan migrate --seed
 ```
 
-7. Jalankan aplikasi dengan composer
+7. Jalankan aplikasi dengan cmd/terminal 
 
 ```
 php artisan serve
 ```
 
-## Contribution
-
-
-## Source
+Jalankan api dengan http://127.0.0.1:8000/api/
